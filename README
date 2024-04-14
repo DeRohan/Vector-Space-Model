@@ -1,0 +1,11 @@
+This update implements Vector Space Model, supporting free text queries, ranked retrieval and partial matching.
+--> The algorithm utilises TF-IDF weighting to give a measure of quantity to documents.
+--> Cosine Similarity is used to measure Similarity between queries and documents.
+
+--> The retrieved documents are filtered based on a threshold value, alpha, which is set to 0.03 for this specific implementation.
+
+To Run the Model, press "Run All" on VS-Code or Jupyter Notebook.
+--> The order of execution for all the modules matters as the implementation is done in order.
+--> GUI is launched after executing all modules and user can query on their specific desired model.
+
+*Thanks*
